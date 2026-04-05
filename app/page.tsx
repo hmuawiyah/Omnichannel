@@ -19,7 +19,7 @@ import { Button } from "@/components/ui/button"
 
 export default function Home() {
   let csvData: any[] = []
-  
+
   try {
     const csvPath = path.join(process.cwd(), "public", "frontend-engineer-task.csv")
     const csvFile = fs.readFileSync(csvPath, "utf8")
@@ -154,11 +154,11 @@ export default function Home() {
 
               <footer className="px-4 lg:px-6">
                 <p className="text-center text-sm text-muted-foreground">
-                  <a href="https://github.com/hmuawiyah16"
+                  <a href="https://github.com/hmuawiyah"
                     target="_blank"
                     className="flex items-center gap-2 justify-center">
                     <Button variant="link">
-                      <FaGithub /> Created by hmuawiyah16
+                      <FaGithub /> Created by hmuawiyah
                     </Button>
                   </a>
                 </p>
