@@ -41,3 +41,8 @@ npm run dev
 ### 3. Akses Aplikasi
 
 Setelah server aktif, buka browser dan akses: **[http://localhost:3000](http://localhost:3000)**
+
+---
+
+### [Live Demo]
+<https://omnichannel-husein.vercel.app/>
