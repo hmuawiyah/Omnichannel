@@ -18,7 +18,7 @@ import * as React from "react"
 import { Button } from "@/components/ui/button"
 
 export default function Page() {
-  const csvPath = path.join(process.cwd(), "frontend-engineer-task.csv")
+  const csvPath = path.join(process.cwd(), "public", "frontend-engineer-task.csv")
   const csvFile = fs.readFileSync(csvPath, "utf8")
 
   const { data: csvData } = Papa.parse(csvFile, {
