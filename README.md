@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dashboard Omnichannel Sales
 
-## Getting Started
+Aplikasi ini menyediakan dashboard terpadu bagi tim finance dan admin untuk memantau performa penjualan lintas marketplace menggunakan dataset berbasis CSV.
 
-First, run the development server:
+### What insights you found from the data
+
+selisih signifikan antara gross dan net revenue, yang mengindikasikan beban marketplace fee yng cukup besar. Kemudian Cancel rate yang menggambarkan potensi pendapatan yang hilang ata tertunda. dan insight marketplace shopee mendominasi volume order, namun kontribusi revenue-nya perlu dibandingkan secara proporsional dengan Tiktok Shop dan Tokopedia
+
+### What you prioritized
+
+prioritas saya adalah memberikan tampilan informasi bisnis yang cepat bagi tim finance dan admin, dengan menggunakan stat card, grafk tren, filter periode, pie chart, bar chart, dan tabel transaksi interaktif
+
+### What you intentionally did NOT include
+
+saya tidak menyertakan fungsi pada tombol edit dan delete di tabel karena tujuan dashboard ini hanya untuk melihat data, bukan mengubahnya. kemudian fitur seperti filter jam, analisis pembeli, dan pemilihan tanggal manual juga tiadk saya buat agar tampilan tetap sederhana dan mudah digunakan
+
+### How a user would use this daily
+
+setiap hari user dapat memeriksa stat card untuk mendapatkan gambaran kondisi bisnis secara instan, kemudian jika muncul indikasi masalah maka tabel transaksi dapat digunakan untuk melihat detail masalah tersebut
+
+# Cara Menjalankan
+
+Ikuti langkah-langkah berikut untuk menjalankan proyek di lingkungan lokal:
+
+### 1. Instalasi
+
+Install seluruh dependensi proyek:
+
+```bash
+npm install
+```
+
+### 2. Jalankan Server
+
+Jalankan server pengembangan:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 3. Akses Aplikasi
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Setelah server aktif, buka browser dan akses: **[http://localhost:3000](http://localhost:3000)**
